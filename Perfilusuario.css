@@ -1,0 +1,85 @@
+
+
+
+body {
+background-color: #6197d1;
+background-image: url("imagensota.jpeg");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(36, 34, 34);
+    color: #fff;
+    text-align: center; 
+    height: 40px;
+    padding: 10px;
+    width: 100%;
+}
+main{
+    padding-top: 30px;
+    box-shadow: 10px;
+}
+main section{
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url("blanco.jpeg");
+    display: grid;
+    justify-items:center;
+    gap: 11px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+img:hover{
+    box-shadow: 10px;
+}
+
+
+article {
+    background-color:#a5a5a7;
+    border-radius: 15px;
+    padding: 19px;
+}
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(36, 34, 34);
+    border-radius: 10px;
+    color: #fff;
+}
+h3:hover{
+    cursor: pointer;
+    box-shadow: 10;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+p{
+    margin: 10px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.icon{
+    padding: 5px;
+}
+
+ul ol a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
